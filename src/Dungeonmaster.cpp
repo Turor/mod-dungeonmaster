@@ -123,7 +123,7 @@ enum dungeon
 
 uint32 gossip_text = 197760;
 
-// Add player scripts
+// Add Dungeon Master Scripts
 class DungeonMaster : public CreatureScript
 {
 public:
@@ -292,7 +292,7 @@ public:
 };
 
 // Add all scripts in one
-void AddMyPlayerScripts()
+void AddDungeonMasterScripts()
 {
     new DungeonMaster();
 }
